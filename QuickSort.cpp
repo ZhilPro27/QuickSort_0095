@@ -27,3 +27,7 @@ void input() { // Prodedur input
 		cin >> arr[i];
 	}
 }
+
+void swap(int x, int y) {	//Prosedur swap
+
+}
