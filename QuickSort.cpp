@@ -68,4 +68,6 @@ void q_short(int low, int high) {	//Prosedur quick short
 	}
 	//Memanggil prosedur secara rekursif untuk mengurutkan bagian kiri array
 	q_short(low, j - 1);	//step 12
+	//Memanggil prosedur secara rekursif untuk mengurutkan bagian kanan array
+	q_short(j + 1, high);	//step 13
 }
