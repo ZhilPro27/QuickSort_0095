@@ -17,4 +17,13 @@ void input() { // Prodedur input
 			cout << "\nMaksimum panjang array adalah 20" << endl;
 			cout << "Silahkan coba lagi" << endl;
 	}
+
+	cout << "\n====================" << endl;
+	cout << "\nMasukkan Nilai Array" << endl;
+	cout << "\n====================" << endl;
+
+	for (int i = 0; i < n; i++) {								//Perulangan untuk input nilai
+		cout << "Masukkan nilai " << "<" << (i + 1) << "> ";	//ke dalam array
+		cin >> arr[i];
+	}
 }
