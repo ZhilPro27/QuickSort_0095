@@ -38,4 +38,7 @@ void swap(int x, int y) {	//Prosedur swap
 void q_short(int low, int high) {	//Prosedur quick short
 	int temp;
 	int pivot, i, j;
+	if (low > high) {	//step 1
+		return;
+	}
 }
