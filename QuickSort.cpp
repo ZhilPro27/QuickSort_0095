@@ -76,4 +76,8 @@ void display() {	//Prosedur display
 	cout << "\n========================" << endl;
 	cout << "\nArray yang sudah terurut" << endl;
 	cout << "\n========================" << endl;
+
+	for (int i = 0; i < n; i++) {
+		cout << arr[i] << " ";
+	}
 }
