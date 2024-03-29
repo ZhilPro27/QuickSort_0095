@@ -72,6 +72,8 @@ void q_short(int low, int high) {	//Prosedur quick short
 	q_short(j + 1, high);	//step 13
 }
 
-void display() {
-
+void display() {	//Prosedur display
+	cout << "\n========================" << endl;
+	cout << "\nArray yang sudah terurut" << endl;
+	cout << "\n========================" << endl;
 }
