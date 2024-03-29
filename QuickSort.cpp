@@ -86,5 +86,5 @@ void display() {	//Prosedur display
 }
 
 int main() {
-
+	char ch;
 }
