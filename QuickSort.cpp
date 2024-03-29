@@ -42,4 +42,5 @@ void q_short(int low, int high) {	//Prosedur quick short
 		return;
 	}
 	pivot = arr[low]; //step 2
+	i = low + 1;	//step 3
 }
