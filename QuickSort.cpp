@@ -80,4 +80,6 @@ void display() {	//Prosedur display
 	for (int i = 0; i < n; i++) {
 		cout << arr[i] << " ";
 	}
+
+	cout << "\nJumlah perbandingan: " << cmp_count << endl;
 }
