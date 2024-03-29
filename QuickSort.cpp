@@ -62,5 +62,8 @@ void q_short(int low, int high) {	//Prosedur quick short
 			swap(i, j);
 		}
 	}
-		
+	if (low < j) {	//step 11
+		//Menukarkan elemen pivot dengan elemen index j
+		swap(low, j);
+	}
 }
