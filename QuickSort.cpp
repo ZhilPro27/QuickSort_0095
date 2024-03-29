@@ -34,3 +34,7 @@ void swap(int x, int y) {	//Prosedur swap
 	arr[y] = temp;
 	mov_count++;
 }
+
+void q_short(int low, int high) {	//Prosedur quick short
+
+}
