@@ -82,4 +82,5 @@ void display() {	//Prosedur display
 	}
 
 	cout << "\nJumlah perbandingan: " << cmp_count << endl;
+	cout << "Jumlah perpindahan data :" << mov_count << endl;
 }
