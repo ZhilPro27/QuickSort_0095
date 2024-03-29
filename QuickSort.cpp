@@ -44,7 +44,7 @@ void q_short(int low, int high) {	//Prosedur quick short
 	pivot = arr[low]; //step 2
 	i = low + 1;	//step 3
 	j = high;	//step 4
-
+	while (i <= j) {	//step 10
 		//Mencari elemen yang lebih besar dari pivot
 		while ((arr[i <= pivot]) && (i <= high)) {	//step 5
 			i++;	//step 6
@@ -61,4 +61,6 @@ void q_short(int low, int high) {	//Prosedur quick short
 			//Menukarkan element pada index i dengan elemen pada index j
 			swap(i, j);
 		}
+	}
+		
 }
