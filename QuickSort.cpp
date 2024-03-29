@@ -57,4 +57,8 @@ void q_short(int low, int high) {	//Prosedur quick short
 			cmp_count++;
 		}
 		cmp_count++;
+		if (i < j) {	//step 9
+			//Menukarkan element pada index i dengan elemen pada index j
+			swap(i, j);
+		}
 }
